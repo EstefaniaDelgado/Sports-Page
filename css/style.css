@@ -1,0 +1,423 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    box-sizing: border-box;
+}
+
+.encabezado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.listHeader{
+    display: none;
+}
+
+.marginHeader{
+    margin: 5px;
+}
+
+input{
+    padding: 10px 30px 10px 30px;
+    border-radius: 50px;
+}
+
+button{
+    background-color: #8B48BF;
+    padding: 10px 30px 10px 30px;
+    border-radius: 50px;
+    border: none;
+}
+
+.btnHeader{
+    display: none;
+}
+
+.titlePt3{
+    font-size: 39px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.mainPt3{
+    display: flex;
+    margin: 20px;
+}
+
+.bestPlayers1{
+    content: 80px 20px 40px 20px;
+}
+
+.bestPlayers2{
+    display: none;
+}
+
+h6{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 1200;
+}
+
+.biographyPlayers{
+    font-size: 16px;
+    padding: 20px 15px 20px 15px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.btn3{
+    color: #FFFFFF;
+}
+
+.footerPt1{
+    display: flex;
+    height: 336px;
+    background-color: #3CDDF3;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.knowTeams{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 900;
+    padding: 20px 70px 20px 70px;
+    text-align: center;
+}
+
+.btn2{
+    background-color: #232C50;
+}
+
+.lnkBtn2{
+    color: #FFFFFF;
+    font-weight: 900;
+    margin: 0;
+}
+
+.footerPt2{
+    background-color: #000000;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.homeRs{
+    display: flex;
+    flex-direction: column;
+    order: 1;
+}
+
+.textBtn{
+    order: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.allRs{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px 20px 0px;
+
+}
+
+.listsFooter{
+    display: flex;
+    justify-content: space-around;
+}
+
+.listFooter{
+    list-style: none;
+}
+
+.textFooter{
+    color: #FFFFFF;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    order: -1;
+}
+
+.textCop2{
+    color: #8C8C94;
+    order: 2;
+    text-align: center;
+    font-size: 12.5px;
+}
+
+li{
+    padding-bottom: 8px;
+}
+
+/* seccion del medio */
+
+/* seccion hero */
+.contenedor-hero{
+    padding: 25px;
+}
+
+.hero-imagen-principal img{
+    height: auto;
+    width: 100%;
+}
+
+.info-hero{
+    text-align:right;  
+}
+
+.info-hero h1{
+    color:#232C50;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.parrafo-hero{
+  margin-bottom: 20px;
+}
+
+/* seccion pregunta */
+.pregunta-sobre-pros{
+    background-color: #3CDDF3;
+    color: #FFFFFF;
+    padding: 30px 15px;
+    height: 100%;
+}
+
+.pregunta-sobre-pros h2{
+    margin: 30px 0;
+    flex: 0.5;
+}
+
+.pregunta-sobre-pros p{
+    display: block;
+    margin: 30px 0;
+}
+
+.pregunta-sobre-pros .parrafo-dos{
+    display: none;
+}
+
+/* tres articulos */
+.contenedor-tres-articulos{
+    margin: 30px 0 10px 30px;
+}
+
+.contenedor-tres-articulos h4{
+    background-color: #dae0dc;
+    padding: 9px 0;
+    border-radius: 30px 0 0 30px;
+}
+
+.contenedor-tres-articulos .numero-articulo {
+    display: inline;
+    background-color: #8B48BF;
+    border-radius: 30px;
+   padding: 10px 25px;
+    margin-right: 15px;
+    color: #FFFFFF;
+}
+
+.contenedor-tres-articulos p{
+    padding: 25px 8px;
+}
+
+/* media query */
+@media(min-width:1024px){
+   
+    .listHeader{
+        list-style: none;
+        display: flex; 
+    }
+
+    .btnHeader{
+        display: inline;
+    }
+
+    .encabezado{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 200px;
+    }
+
+    .btn1{
+        color: #FFFFFF;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .footerPt1{
+        display: flex;
+        flex-direction: row;
+        height: 224px;
+        background-color: #8B48BF;
+        justify-content: space-around;
+    }
+
+    .bestPlayers2{
+        display: inline;
+    }
+
+    .biographyPlayers{
+        padding: 20px 15px 20px 15px;
+    }
+
+    .knowTeams{
+        text-align: left;
+    }
+
+    .btn2{
+        background-color: #FFFFFF;
+    }
+
+    .lnkBtn2{
+        color: #8B48BF;
+    }
+
+    .footerPt2{
+        background-color: #000000;
+        height: 247px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+    }
+    
+    .textBtn{
+        order: 0;
+
+    }
+
+    .homeRs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        content: 200px;
+        order: -2;
+    }
+    
+    .allRs{
+        width: 200px;
+    }
+
+    .listsFooter{
+        list-style: none;
+        order: -1;
+        width: 30%;
+        justify-content: space-between;
+    }
+    
+    .textFooter{
+        color: white;
+    }
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        justify-content: space-evenly;
+    }
+
+    .textCop1{
+        color: #8C8C94;
+        order: 2;
+        text-align: right;
+        font-size: 12.5px;
+    }
+
+    .textCop2{
+        display: none;
+    }
+    
+     /* hero */
+    .contenedor-hero{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center; 
+        gap: 20px;
+    }
+
+    .info-hero{
+        display: flex;
+    flex-direction: column;
+    align-items: end;
+    flex: 0.52;
+    gap: 25px;
+    }
+    /* seccion pregunta */
+    .pregunta-sobre-pros{
+        background-color: #8B48BF;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .pregunta-sobre-pros h2{
+        flex:0.25;
+    }
+
+    .pregunta-sobre-pros p{
+        display: none;
+    }
+
+    .pregunta-sobre-pros .parrafo-dos{
+        display: inline-block;
+        flex: 0.35;
+   
+    }
+      
+    /* seccion articulos */
+    .contenedor-tres-articulos{
+        margin: 52px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+                 
+    }
+
+    .contenedor-tres-articulos h4{
+        background-color: #fff;
+    }
+
+    .contenedor-articulo-uno-dos{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    
+    .primer-articulo{
+        flex: 0.4;
+        min-width: 400px;
+    }
+    .segundo-articulo{
+        flex: 0.4;
+        min-width: 400px;
+    }
+
+    .tercer-articulo{
+        width: 30%;
+        min-width: 400px;
+    }
+
+}
