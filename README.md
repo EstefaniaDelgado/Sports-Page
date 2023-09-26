@@ -1,9 +1,5 @@
 # Proyecto FrontEnd 💻
 
-**Camada1**
-
-**Profesora**:👩🏻‍🏫*Nora Morgan*
-
 **Integrantes**:🧑🏻 *Juan Francisco Velasco Cornejo*, 👩🏻 *Estefania Delgado Hoyos*
 
 Página de deportes donde proporciona información relacionada al Tennis como por ejemplo sobre los mejores jugadores del mes.
