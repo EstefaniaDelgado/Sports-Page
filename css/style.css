@@ -375,6 +375,7 @@ li{
     gap: 25px;
     }
 
+
     /* seccion pregunta */
     .pregunta-sobre-pros{
         background-color: #8B48BF;
@@ -409,6 +410,7 @@ li{
 
     .contenedor-tres-articulos h4{
         background-color: #fff;
+        font-size: 1rem;
     }
 
     .contenedor-articulo-uno-dos{
