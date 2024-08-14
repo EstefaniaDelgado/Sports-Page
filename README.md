@@ -1,7 +1,5 @@
 # Proyecto FrontEnd 💻
 
-**Integrantes**:🧑🏻 *Juan Francisco Velasco Cornejo*, 👩🏻 *Estefania Delgado Hoyos*
-
 Landing Page de deportes que proporciona información relacionada al Tennis como por ejemplo sobre los mejores jugadores del mes.
 
 ## Tecnologías usadas:
